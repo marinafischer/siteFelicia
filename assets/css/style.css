@@ -21,16 +21,6 @@ header {
     align-items: center;
 }
 
-.logo {
-    width: 100px;   
-}
-
-.logoimg {
-    width: 0px;
-    height: 80px;
-    background-color: rgb(75, 134, 75);
-    border-radius: 40px;
-}
 .menu{
     flex: 1;
     display: flex;
@@ -227,6 +217,19 @@ css de áreas específicas
     color: #999;
 }
 
+.section-service a{
+  text-decoration: none;
+  color: #d8be9b;
+}
+
+.icon {
+  font-size: 60px;
+  color: #daa054;
+}
+
+.section-service:hover {
+  border: 3px solid rgb(75, 134, 75);
+}
 
 
 
@@ -257,10 +260,8 @@ css de áreas específicas
     border-bottom: 3px solid #EEE;
     cursor: pointer;
 }
-.section-projects-filters li:hover,
-.section-projects-filters li.active {
+.section-projects-filters li:hover {
     border-bottom: 3px solid rgb(75, 134, 75);
-
 }
 .section-projects-filters li:first-child {
     border-left: 0;
